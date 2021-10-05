@@ -1,6 +1,6 @@
 # The Nnexio: A Religious Tool of the Future
 
-[Tinkercard link to Nnexio](https://www.tinkercad.com/things/kesA7uzwMNh-copy-of-creative-lab-1-104-336/editel?sharecode=ItRCor6-ObHgM5pdrbiHikPPvoi8U7YYqKcb01NzBUs)
+[Tinkercad link to Nnexio](https://www.tinkercad.com/things/kesA7uzwMNh-copy-of-creative-lab-1-104-336/editel?sharecode=ItRCor6-ObHgM5pdrbiHikPPvoi8U7YYqKcb01NzBUs)
 
 ## Background
 Reading Donna Haraway’s “A Cyborg Manifesto” (1985), I was both intimated and excited by the transgressive possibilities of breaching traditional western taboos. At the same time, I found the reading about affordances fascinating, particularly on the question of “direct” vs. “culturally-specific” affordances. While not directly related to HCI, I began thinking about religious tools: a Christian cross has no obvious affordances, and yet it has been one of the central, unchanging religious tools in western culture for the past thousand years. What about a physical cross gives it its persistent ‘pray-with-ability’?
@@ -14,13 +14,14 @@ The sacredness of the Nnexio derives from its use in the blessed unity ritual (w
 
 The device can be configured for any number of pod members, but is traditionally set up for use by 3-10 people. The pod members will arrange themselves in a circle around the Nnexio, each picking up a wire that’s connected to the central hub. The central hub contains a ring of lights: wealthier temples might have decoratively ornate, multi-tiered central hubs while poorer rural temples might simply contain a few simple LEDs. What’s certain is that every place of worship has one, each tinted by their own local culture.
 
+![Rough sketch of unity ceremony for four a four member pod](visuals/sketch-of-nnexio-in-use.jpg?raw=true)
+
 When the ceremony begins, the lights of the temple are shut off and pod members place the flat metal plate at the end of the wire on their chest. As the plate heats up from their body’s energy a light indicator near their position in the ring turns on. When all members are connected to the circuit, the central hub begins to glow getting brighter the longer they stay connected. The ritual symbolizes the organic becoming electric and the merging of their energies into one circuit brighter than their individual parts. Congregants see not people, but simply lights, energy, commingling in the dark, becoming one. 
 
 ## Implementation
 The tinkercard circuit shows a prototype of how this device would work on a full scale. In this example, the Nnexio will be used for a four person unity pod. Each person would stand next to a temperature sensor. The Arduino listens for when a temperature sensor goes above a certain threshold, and then turns on the corresponding indicator light. When all indicator lights are on (meaning everyone is connected to the circuit), the arduino initiates powering the central hub. If any member were to remove themselves from the circuit, the arduino shuts down the central hub (doing so during the ceremony would be considered sacrilegious).
 
-
-[![Watch the video](https://cdn.loom.com/sessions/thumbnails/012dae8194454ed78a5ba57c2c01ede1-with-play.gif)](https://www.loom.com/embed/012dae8194454ed78a5ba57c2c01ede1)
+![test](https://github.com/msc-creative-computing/p-comp-week-1-labs-adamdavidcole/blob/main/visuals/tinkercad-nnexio-in-use.mp4?raw=true)
 
 ## Further Study
 If I were to continue working on this, I’d want to deepen my knowledge of electric religious tools from history (although I can’t think of any) and in science fiction (of which I’m sure there are many). 
