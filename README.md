@@ -21,7 +21,7 @@ When the ceremony begins, the lights of the temple are shut off and pod members 
 ## Implementation
 The tinkercard circuit shows a prototype of how this device would work on a full scale. In this example, the Nnexio will be used for a four person unity pod. Each person would stand next to a temperature sensor. The Arduino listens for when a temperature sensor goes above a certain threshold, and then turns on the corresponding indicator light. When all indicator lights are on (meaning everyone is connected to the circuit), the arduino initiates powering the central hub. If any member were to remove themselves from the circuit, the arduino shuts down the central hub (doing so during the ceremony would be considered sacrilegious).
 
-![test](https://github.com/msc-creative-computing/p-comp-week-1-labs-adamdavidcole/blob/main/visuals/tinkercad-nnexio-in-use.mp4?raw=true)
+https://user-images.githubusercontent.com/5685294/136089871-32d28978-7f34-4053-a7f3-da1e50056a5c.mp4
 
 ## Further Study
 If I were to continue working on this, I’d want to deepen my knowledge of electric religious tools from history (although I can’t think of any) and in science fiction (of which I’m sure there are many). 
